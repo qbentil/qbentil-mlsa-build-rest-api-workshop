@@ -5,6 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "node ./build/index.js",
+    "build": "tsc",
     "server": "nodemon --exec ts-node index.ts"
   },
   "keywords": [],

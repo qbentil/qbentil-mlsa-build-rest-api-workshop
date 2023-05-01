@@ -50,7 +50,7 @@ This GitHub repository contains the code and resources for the "Building scalabl
 The API endpoints covered in the event include adding a new todo, updating a todo, deleting a todo, and getting a todo by ID. The code samples cover topics such as defining routes and endpoints, using middleware in ExpressJS, testing REST APIs using tools like Postman, and containerizing the API using Docker. The event is suitable for developers of all levels who are interested in learning how to build scalable REST APIs using modern web technologies.
 
 ## Re3corded Session
-[Find Session FRecording here] (https://stdntpartners-my.sharepoint.com/:v:/g/personal/kelvin_sowah_studentambassadors_com/EWpn-uJneJ1Ph9xk6NWlCXIB2bU8_gAlJUJqYEkt8BBJOQ?e=jENAQW)
+[Find Session FRecording here](https://stdntpartners-my.sharepoint.com/:v:/g/personal/kelvin_sowah_studentambassadors_com/EWpn-uJneJ1Ph9xk6NWlCXIB2bU8_gAlJUJqYEkt8BBJOQ?e=jENAQW)
 ## :sparkles: Features ##
 
 :heavy_check_mark: Create TODO;\

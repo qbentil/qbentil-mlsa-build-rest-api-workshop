@@ -5,10 +5,10 @@
   "main": "index.ts",
   "scripts": {
     "start": "node ./build/index.js",
-    "server": "nodemon --exec ts-node  index.ts"
+    "server": "nodemon --exec ts-node index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "qbentil",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.17",

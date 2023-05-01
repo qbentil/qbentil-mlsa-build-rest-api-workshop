@@ -15,13 +15,13 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/qbentil/qbentil-mlsa-build-rest-api-workshop?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/qbentil/qbentil-mlsa-build-rest-api-workshop?color=56BEB8">
+  <!-- <img alt="License" src="https://img.shields.io/github/license/qbentil/qbentil-mlsa-build-rest-api-workshop?color=56BEB8"> -->
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/qbentil/qbentil-mlsa-build-rest-api-workshop?color=56BEB8" /> -->
+  <img alt="Github issues" src="https://img.shields.io/github/issues/qbentil/qbentil-mlsa-build-rest-api-workshop?color=56BEB8" />
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/qbentil/qbentil-mlsa-build-rest-api-workshop?color=56BEB8" /> -->
+  <img alt="Github forks" src="https://img.shields.io/github/forks/qbentil/qbentil-mlsa-build-rest-api-workshop?color=56BEB8" />
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/qbentil/qbentil-mlsa-build-rest-api-workshop?color=56BEB8" /> -->
+  <img alt="Github stars" src="https://img.shields.io/github/stars/qbentil/qbentil-mlsa-build-rest-api-workshop?color=56BEB8" />
 </p>
 
 <!-- Status -->
@@ -45,8 +45,9 @@
 <br>
 
 ## :dart: About ##
-This was a workshop to teach attendees how to build a REST API with typeScript using ExpressJS.
+This GitHub repository contains the code and resources for the "Building scalable REST API with TypeScript from Scratch to Deployment" event. The event provides attendees with hands-on experience in building a REST API using TypeScript, ExpressJS, and MongoDB, and deploying the API on Render. The repository includes code samples, slides, and documentation to help attendees follow along with the event and build their own REST APIs.
 
+The API endpoints covered in the event include adding a new todo, updating a todo, deleting a todo, and getting a todo by ID. The code samples cover topics such as defining routes and endpoints, using middleware in ExpressJS, testing REST APIs using tools like Postman, and containerizing the API using Docker. The event is suitable for developers of all levels who are interested in learning how to build scalable REST APIs using modern web technologies.
 ## :sparkles: Features ##
 
 :heavy_check_mark: Create TODO;\

@@ -48,13 +48,16 @@
 This GitHub repository contains the code and resources for the "Building scalable REST API with TypeScript from Scratch to Deployment" event. The event provides attendees with hands-on experience in building a REST API using TypeScript, ExpressJS, and MongoDB, and deploying the API on Render. The repository includes code samples, slides, and documentation to help attendees follow along with the event and build their own REST APIs.
 
 The API endpoints covered in the event include adding a new todo, updating a todo, deleting a todo, and getting a todo by ID. The code samples cover topics such as defining routes and endpoints, using middleware in ExpressJS, testing REST APIs using tools like Postman, and containerizing the API using Docker. The event is suitable for developers of all levels who are interested in learning how to build scalable REST APIs using modern web technologies.
+
+## Re3corded Session
+[Find Session FRecording here] (https://stdntpartners-my.sharepoint.com/:v:/g/personal/kelvin_sowah_studentambassadors_com/EWpn-uJneJ1Ph9xk6NWlCXIB2bU8_gAlJUJqYEkt8BBJOQ?e=jENAQW)
 ## :sparkles: Features ##
 
 :heavy_check_mark: Create TODO;\
 :heavy_check_mark: Fetch TODOs;\
 :heavy_check_mark: Update TODO;\
 :heavy_check_mark: Delete TODO;\
-:heavy_check_mark: get TODO by ID;\
+:heavy_check_mark: get TODO by ID
 
 
 ## :rocket: Technologies ##

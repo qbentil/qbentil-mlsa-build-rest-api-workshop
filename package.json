@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "node ./build/index.js",
+    "start":  "node ./build/index.js",
     "build": "tsc",
     "server": "nodemon --exec ts-node index.ts"
   },
@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/express": "^4.17.17",
     "typescript": "^5.0.4",
-    "@types/cors": "^2.8.13",
+    "@types/cors": "^2.8.13"
   },
   "dependencies": {
     "dotenv": "^16.0.3",

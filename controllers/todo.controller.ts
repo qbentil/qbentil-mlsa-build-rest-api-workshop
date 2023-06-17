@@ -33,17 +33,35 @@ export const addTodo = async (req: Request, res: Response, next: NextFunction) =
 }
 
 export const updateTodo = async (req: Request, res: Response, next: NextFunction) => {
-    const { title, description } = req.body
+    const { title, description, checked } = req.body
     const { id } = req.params
     try {
         const todo = await TODOSCHEMA.findByIdAndUpdate(id, {
-            title, description
+            title, description, checked
         }, { new: true })
 
         res.status(201).json({
             success: true,
             data: todo,
             message: "Update todo successfully"
+        })
+    } catch (error) {
+        next(error)
+    }
+}
+
+export const checkTodo = async (req: Request, res: Response, next: NextFunction) => {
+    const { id } = req.params
+    const { checked } = req.body
+    try {
+        const todo = await TODOSCHEMA.findByIdAndUpdate(id, {
+            checked
+        }, { new: true })
+
+        res.status(201).json({
+            success: true,
+            data: todo,
+            message: "Check todo successfully"
         })
     } catch (error) {
         next(error)

@@ -1,4 +1,4 @@
-import { addTodo, deleteTodo, getTodo, getTodoById, updateTodo } from '../controllers/todo.controller';
+import { addTodo, checkTodo, deleteTodo, getTodo, getTodoById, updateTodo } from '../controllers/todo.controller';
 
 import { Router } from 'express';
 
@@ -12,6 +12,9 @@ router.post("/", addTodo)
 
 // update todo
 router.put("/:id", updateTodo)
+
+// check todo
+router.patch("/:id", checkTodo)
 
 // delete todo
 router.delete("/:id", deleteTodo)

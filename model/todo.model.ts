@@ -9,6 +9,10 @@ const TODOSCHEMA = new Schema({
         type: String,
         required: [true, "Description is required"]
     },
+    checked: {
+        type: Boolean,
+        default: false
+    }
 }, { timestamps: true })
 
 export default models.TODOSCHEMA || mongoose.model("TODOSCHEMA", TODOSCHEMA)
